@@ -345,7 +345,7 @@
 
     <!-- Show battery fully charged notification -->
     <bool name="config_showBatteryFullyChargedNotification">true</bool>
-
+   
     <!-- Enables or disables swype upp gestures for default. -->
     <bool name="config_custom_swipe_up_gesture_setting_available">true</bool> 
 
@@ -357,5 +357,8 @@
 
     <!-- Specifies the path that is used by AdaptiveIconDrawable class to crop launcher icons. -->
     <string name="config_icon_mask" translatable="false">"M50 0A50 50,0,1,1,50 100A50 50,0,1,1,50 0"</string> 
+  
+    <!-- Remote server that can provide NTP responses. -->
+    <string translatable="false" name="config_ntpServer">1.android.pool.ntp.org</string>
 </resources>
 
