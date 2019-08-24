@@ -179,6 +179,13 @@ BOARD_SEPOLICY_DIRS += device/motorola/victara/sepolicy
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/motorola/victara/sepolicy/private
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Vendor Init
 TARGET_INIT_VENDOR_LIB := libinit_victara
 TARGET_RECOVERY_DEVICE_MODULES := libinit_victara
