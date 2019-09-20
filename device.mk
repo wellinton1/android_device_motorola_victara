@@ -86,9 +86,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
     libbt-vendor
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1920
+# Boot Animation
 TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Dalvik heap
 PRODUCT_PROPERTY_OVERRIDES += \
