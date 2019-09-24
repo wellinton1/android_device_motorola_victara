@@ -1,0 +1,2 @@
+allow untrusted_app system_app_data_file:dir getattr;
+allow untrusted_app hal_memtrack_hwservice:hwservice_manager { find };
