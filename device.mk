@@ -73,6 +73,10 @@ PRODUCT_COPY_FILES += \
     device/motorola/victara/permissions/com.motorola.software.x_line.xml:system/etc/permissions/com.motorola.software.x_line.xml \
     device/motorola/victara/permissions/com.motorola.targetnotif.xml:system/etc/permissions/com.motorola.targetnotif.xml
 
+# Qualcomm
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-oem.xml:/system/etc/permissions/privapp-permissions-oem.xml
+
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # Screen density
