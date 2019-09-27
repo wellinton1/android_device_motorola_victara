@@ -9,9 +9,9 @@ allow init rootfs:lnk_file relabelfrom;
 allow init sysfs_battery_supply:lnk_file read;
 allow init sysfs_light:file setattr;
 allow init sysfs_power:file setattr;
-
+allow init sysfs_graphics:file write;
 allow init self:socket read;
-
+allow init sysfs_graphics:file open;
 allow init sysfs_devfreq:file rw_file_perms;
 allow init sysfs_devices_system_cpu:file rw_file_perms;
 allow init sysfs_msm_perf:file rw_file_perms;
@@ -41,3 +41,6 @@ allow init proc:file { w_file_perms };
 #Give all untill we add all paths to "genfs_contexts"
 allow init sysfs:file create_file_perms;
 allow init sysfs:dir create_dir_perms;
+
+
+allow init vendor_file:file execute_no_trans;
