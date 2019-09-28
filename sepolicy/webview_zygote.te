@@ -4,7 +4,7 @@ allow webview_zygote ion_device:chr_file { getattr open read };
 allow webview_zygote zygote_exec:file { getattr open read write };
 allow webview_zygote theme_data_file:dir r_dir_perms;
 #allow webview_zygote theme_data_file:dir r_dir_perms;
-allow webview_zygote theme_data_file:dir search;
+#allow webview_zygote theme_data_file:dir search;
 allow webview_zygote tombstoned_crash_socket:sock_file write;
 allow webview_zygote tombstoned:unix_stream_socket connectto;
 allow webview_zygote tombstoned:fd use;
