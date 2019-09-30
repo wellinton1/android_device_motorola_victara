@@ -7,6 +7,9 @@ $(call inherit-product, vendor/aosp/config/common.mk)
 # Inherit from victara device
 $(call inherit-product, device/motorola/victara/device.mk)
 
+# AospExtended-BuildType
+EXTENDED_BUILD_TYPE := OFFICIAL
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := victara
 PRODUCT_NAME := aosp_victara
