@@ -254,6 +254,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_image
 
+# Preopt SystemUI
+PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.qcom.bt.sh
