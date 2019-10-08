@@ -345,5 +345,8 @@
 
     <!-- Show battery fully charged notification -->
     <bool name="config_showBatteryFullyChargedNotification">true</bool>
+
+    <!-- Enables or disables swype upp gestures for default. -->
+    <bool name="config_custom_swipe_up_gesture_setting_available">true</bool> 
 </resources>
 
