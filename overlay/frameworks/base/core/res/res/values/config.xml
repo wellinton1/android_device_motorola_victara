@@ -342,5 +342,8 @@
 
     <!-- The name of the package that will hold the assistant role by default. -->
     <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
+
+    <!-- Enables or disables swype upp gestures for default. -->
+    <bool name="config_custom_swipe_up_gesture_setting_available">true</bool> 
 </resources>
 
