@@ -358,3 +358,8 @@ PRODUCT_PACKAGES += \
 
 # Inherit APN info from device
 PRODUCT_COPY_FILES += device/motorola/victara/configs/apns-conf.xml:system/etc/apns-conf.xml
+
+# Special guests
+PRODUCT_PACKAGES += \
+    JamesDSPManager \
+    libjamesDSPImpulseToolbox
