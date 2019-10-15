@@ -1,6 +1,9 @@
 #
 # system.prop for msm8974
 #
+# AptX /picked from Moto griffin - NCLS25.86-11-4-6-5
+vendor/lib/libaptXHD_encoder.so|be001beda31bcc8ffc8721bafea12a32
+vendor/lib/libaptX_encoder.so|3155c99da8e32cfed06d48c79de97ae6
 
 # Audio
 af.fast_track_multiplier=1
