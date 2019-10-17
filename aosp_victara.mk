@@ -24,9 +24,9 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 # Use Jelly
-TARGET_USE_JELLY := true
+#TARGET_USE_JELLY := true
 
 # Use Gapps
-#WITH_GAPPS := true
-#TARGET_GAPPS_ARCH := arm
-#IS_PHONE := true
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm
+IS_PHONE := true
