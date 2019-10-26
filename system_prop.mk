@@ -32,6 +32,8 @@ camera2.portability.force_api=1
 persist.mot.gps.smart_battery=1
 
 # Graphics
+debug.stagefright.omx_default_rank.sw-audio=1
+debug.stagefright.omx_default_rank=0
 debug.stagefright.ccodec=0
 debug.sf.enable_gl_backpressure=1
 persist.hwc.mdpcomp.enable=true
