@@ -274,18 +274,16 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc
+# RenderScript HAL
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
 
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec.policy:system/vendor/etc/seccomp_policy/mediacodec.policy
 
 # System Properties
-$(call inherit-product, device/motorola/victara/system_prop.mk)	
-	
-# RenderScript HAL
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
-
+$(call inherit-product, device/motorola/victara/system_prop.mk)
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
