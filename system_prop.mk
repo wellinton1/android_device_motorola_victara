@@ -1,7 +1,3 @@
-#
-# system.prop for msm8974
-#
-
 # Audio
 af.fast_track_multiplier=1
 vendor.audio_hal.period_size=192
