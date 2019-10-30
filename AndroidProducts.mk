@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_victara.mk
+    $(LOCAL_DIR)/superior_victara.mk

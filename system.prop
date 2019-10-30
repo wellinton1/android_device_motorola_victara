@@ -80,3 +80,7 @@ ro.disableWifiApFirmwareReload=true
 ro.hw.device=victara
 # Play store
 ro.com.google.clientidbase.gmm=android-motorola
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+        ro.superior.maintainer=Jeferson Oliveira
