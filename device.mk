@@ -177,6 +177,10 @@ PRODUCT_PACKAGES += \
     libgenlock \
     memtrack.msm8974
 
+# Encryption
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.cryptfshw@1.0-service-qti
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl \
@@ -274,6 +278,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
@@ -284,6 +289,7 @@ PRODUCT_COPY_FILES += \
 
 # System Properties
 $(call inherit-product, device/motorola/victara/system_prop.mk)
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
