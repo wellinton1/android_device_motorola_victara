@@ -1,0 +1,7 @@
+allow netmgrd dnsresolver_service:service_manager find;
+allow netmgrd netd_service:service_manager find;
+allow netmgrd servicemanager:binder call;
+
+allow servicemanager netmgrd:dir search;
+allow servicemanager netmgrd:file { open read };
+allow servicemanager netmgrd:process getattr;

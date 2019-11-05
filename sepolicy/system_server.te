@@ -9,3 +9,4 @@ allow system_server sysfs_light:file rw_file_perms;
 allow system_server sysfs_power:file rw_file_perms;
 
 allow system_server sensors_device:chr_file r_file_perms;
+allow system_server proc:file { getattr open read };
