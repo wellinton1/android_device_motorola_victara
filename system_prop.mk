@@ -36,6 +36,7 @@ debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 debug.stagefright.ccodec=0
 debug.sf.enable_gl_backpressure=1
+debug.sf.latch_unsignaled=1
 persist.hwc.mdpcomp.enable=true
 ro.hdmi.enable=true
 ro.opengles.version=196608
