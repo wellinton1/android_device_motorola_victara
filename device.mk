@@ -208,7 +208,7 @@ PRODUCT_COPY_FILES += \
 
 # Keylayout
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/keylayout/sensorprocessor.kl:system/usr/keylayout/sensorprocessor.kl
+    $(LOCAL_PATH)/keylayout/sensorprocessor.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sensorprocessor.kl
 
 # Keystore
 PRODUCT_PACKAGES += \
